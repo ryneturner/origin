@@ -56,6 +56,9 @@ class Game
     public:
         Game() = default;
         void gameOfWar(int);
+    
+    private:
+        int Player1, Player2;
 };
 
 //Able to remove cards off of the front and back of the deck
