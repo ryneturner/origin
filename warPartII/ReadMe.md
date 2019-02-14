@@ -4,5 +4,6 @@ simplified running the game of war, which was about 100 lines of code located in
 8-bit integers was used in the getRank() and getSuit() operators.  Again in this assignment, the suit does not matter, so 
 only the four least significant bits are relevant to determining the outcome of the game.  The enumerated values are then
 ordered by their bit values.  The game is played in a realistic order depending on the original shuffling of the cards,
-with each player drawing a card per round.  The Game class encapsulates the gameOfWar() function so that the rest of the
-program can be used to run other card games as well.
+with each player drawing a card per round.  The Game class includes the gameOfWar() function so that the rest of the
+program can be used to run other card games as well, and it encapsulates the score of the players so that the values
+corresponding to each player cannot be modified outside of their intended purpose.
