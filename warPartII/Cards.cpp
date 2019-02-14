@@ -64,7 +64,8 @@ std::ostream& operator<<(std::ostream& out, Card c)
 void Game::gameOfWar(int trial)
 {
     //Declare counters for Player 1 and Player 2
-    int Player1 = 0, Player2 = 0;
+    Player1 = 0;
+    Player2 = 0;
     
     //Declare the set of 52 cards to relate suit and rank
     Deck d
