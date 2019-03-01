@@ -46,7 +46,6 @@ enum Kind
     JokerKind
 };
 
-//Card class where each card is represented by SSSS RRRR
 class Card
 {
 public:
