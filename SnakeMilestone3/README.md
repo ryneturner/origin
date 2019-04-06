@@ -1,1 +1,1 @@
-This update to the project plays music by Kanye West.
+This update to the Snake game includes functionality to play, pause, and stop music. The snake eats different pieces of "food" that rotate by colour.  By using the length of the snake, it was possible to determine what kinds of food were to be eaten.  Taking the idea behind this abstraction further, the snake becomes faster once a certain colour of food is consumed by the snake.
