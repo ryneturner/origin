@@ -1,1 +1,1 @@
-
+For Milestone 4, Snake was updated to have a menu with two options, to start or quit the game.  This expanded the game by creating a new Menu class, allowing this class to be transferred to another game.
