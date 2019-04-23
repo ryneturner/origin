@@ -1,1 +1,1 @@
-For Milestone 4, Snake was updated to have a menu with two options, to start or quit the game.  This expanded the game by creating a new Menu class, allowing this class to be transferred to another game.
+For Milestone 4, Snake was updated to have a menu with two options, to start or quit the game.  This expanded the game by creating a new Menu class, allowing this class to be transferred to another game.  Event processing was in this way factored out of the main program, creating a reusable framework for event handling in Snake.
