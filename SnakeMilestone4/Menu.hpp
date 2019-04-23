@@ -1,4 +1,5 @@
 #pragma once
+#include "Windows.hpp"
 
 #include "SFML/Graphics.hpp"
 
@@ -11,6 +12,7 @@ class Menu
     sf::Text menu[MAXIMUM];
     
     public:
+        Menu();
         Menu(float width, float height);
         ~Menu() { }
     
@@ -18,4 +20,5 @@ class Menu
         void Up();
         void Down();
         int Press() { return index; }
+        void Factorization();
 };
